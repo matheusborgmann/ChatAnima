@@ -1,5 +1,6 @@
 {
-  "name": "react-chat",
+  "homepage": "http://GTStorm643.github.io/ChatAnima",
+  "name": "chatanima",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,11 +10,14 @@
     "firebase": "^9.22.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-feather": "^2.0.10",
     "react-firebase-hooks": "^2.2.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -32,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

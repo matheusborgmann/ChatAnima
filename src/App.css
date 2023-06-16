@@ -1,10 +1,10 @@
 body {
-  background-color: #282c34;
+  background-color: #282c34; 
+ 
 }
 
 .App {
   text-align: center;
-  max-width: 728px;
   margin: 0 auto;
 }
 
@@ -15,7 +15,6 @@ body {
   color: white;
   position: fixed;
   width: 100%;
-  max-width: 728px;
   top: 0;
   display: flex;
   align-items: center;
@@ -31,10 +30,11 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: rgb(40, 37, 53);
+ 
 }
 
 main {
-  padding: 10px;
+  padding-right: 10px;
   height: 80vh;
   margin: 10vh 0 10vh;
   overflow-y: scroll;
@@ -60,16 +60,17 @@ form {
   bottom: 0;
   background-color: rgb(24, 23, 23);
   width: 100%;
-  max-width: 728px;
-  display: flex;
+   display: flex;
   font-size: 1.5rem;
 }
 
 form button {
-  width: 20%;
   background-color: rgb(56, 56, 143);
 }
 
+.sign-out {
+  border-radius: 50px;
+}
 
 input {
   line-height: 1.5;
@@ -80,8 +81,10 @@ input {
   outline: none;
   border: none;
   padding: 0 10px;
+
 }
 
+ 
 button {
   background-color: #282c34; /* Green */
   border: none;
