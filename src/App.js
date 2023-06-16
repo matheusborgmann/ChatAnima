@@ -64,9 +64,10 @@ function SignOut() {
 
 
 function ChatRoom() {
+  let limit = 50
   const dummy = useRef();
   const messagesRef = firestore.collection('messages');
-  const query = messagesRef.orderBy('createdAt').limit(25);
+  const query = messagesRef.orderBy('createdAt').limit(limit);
 
   const [messages] = useCollectionData(query, { idField: 'id' });
 
@@ -88,6 +89,7 @@ function ChatRoom() {
     setFormValue('');
     dummy.current.scrollIntoView({ behavior: 'smooth' });
   }
+
 
   return (<>
     <main>
