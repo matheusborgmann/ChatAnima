@@ -10,6 +10,9 @@ Certifique-se de ter o Node.js e o npm instalados na sua máquina.
 2. Navegue até o diretório raiz do projeto.
 3. Execute o seguinte comando para instalar as dependências:
 
+`npm run install`
+
+ ecute o seguinte comando para iniciar a aplicação em um servidor local:
 
 ## Executando a Aplicação
 
@@ -17,12 +20,7 @@ Após a conclusão da instalação das dependências, você pode iniciar a aplic
 
 Execute o seguinte comando para iniciar a aplicação em um servidor local:
 
-
-## Executando a Aplicação
-
-Após a conclusão da instalação das dependências, você pode iniciar a aplicação.
-
-Execute o seguinte comando para iniciar a aplicação em um servidor local:
+`npm run start`
 
 
 Isso iniciará a aplicação em modo de desenvolvimento. Abra o seu navegador e acesse `http://localhost:3000` para visualizar a aplicação.
