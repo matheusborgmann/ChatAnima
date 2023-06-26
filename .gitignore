@@ -6,6 +6,7 @@
 .pnp.js
 .firebase
 
+fireinfo.js
 # testing
 /coverage
 
